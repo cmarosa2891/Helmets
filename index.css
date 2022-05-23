@@ -1,0 +1,118 @@
+html {
+background-color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: white;
+}
+
+body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+
+nav{
+display: flex;
+width: 100%;
+height: 50px;
+background-color: blue;
+font-size: large;
+align-items: center;
+justify-content: flex-end;
+}
+
+.navlogo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo{
+    height: 50px;
+}
+
+.navbutton{
+background-color: aquamarine;
+justify-items: flex-end;
+}
+
+button {
+    border-radius: 5px;
+    background-color: goldenrod;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.section{
+    width: 95%;
+    margin: auto;
+    background-color: darkslategrey;
+    max-height: 30%;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.slides{
+    display: inline-flex;
+
+    background: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 0 0.5rem 0;
+    position: relative;
+}
+
+.slides:hover{
+    z-index: 1;
+} 
+
+.slide-n{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.fa{
+    font-size:1em;
+    color:white;
+    display: block;
+}
+
+
+.social{
+    display: inline;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.slider-container {
+    display: flex;
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+    overflow-x: scroll
+    scroll-snap-type: x mandatory;
+  }
+
+  .footer{
+      display: flex;
+      text-align: center;
+      flex-direction: column ;
+      background-color: black;
+      align-content: center;
+      justify-content: center;
+      width:  100vw;
+      height: 10em;
+  }
