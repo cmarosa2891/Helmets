@@ -7,6 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="carousel.css">
+
 </head>
 
 <body>
@@ -17,18 +20,22 @@
         </div>
 
         <div class="navbutton">
-            <button><a href=""> Inicio </a></button>
-            <button><a href=""> Acerca de nosotros </a></button>
-            <button><a href=""> Helmets </a></button>
-            <button><a href=""> Contacto </a></button>
+            <a class="button" href=""><button>Inicio </button></a>
+            <a class="button" href=""><button>Acerca de nosotros </button></a>
+            <a class="button" href=""><button>Helmets</button></a>
+            <a class="button" href=""><button>Contacto </button></a>
         </div>
 
     </nav>
 
     <!-- Acerca de nosotros-->
     <div class="section">
-        <div>imagen</div>
-        <div>historia</div>
+
+        <div> <p> En HELMETS nos dedicamos a la elaboración de réplicas de los cascos más famosos de Hollywood
+        </p>
+        <p>¿No encontraste el que buscabas? Escribinos!!! <a href=""><i class="fa fa-comments-o"></i>  </a> </p>
+
+        </div>
 
     </div>
 
@@ -41,14 +48,21 @@
         <h4>HELMETS</h4>
         <p>Elegí tu casco favorito!!!</p>
 
+
+        
+
         <div class="slider-container">
-            <div class="slider-container"> <img class="slider-item" src="images/bobafeet.jpg"></div>
-            <div class="slider-container"> <img class="slider-item" src="images/kylo.jpg"></div>
-            <div class="slider-container"> <img class="slider-item" src="images/mando.jpg"></div>
-            <div class="slider-container"> <img class="slider-item" src="images/pilotluke.jpg"></div>
-            <div class="slider-container"> <img class="slider-item" src="images/starkiller.jpg"></div>
-            <div class="slider-container"> <img class="slider-item" src="images/storm.webp"></div>
-            <div class="slider-container"> <img class="slider-item" src="images/tiepilot.jpg"></div>
+
+            <!-- <link href="carousel.html" rel="import" />  -->
+
+
+            <div> <img class="slider-item" src="images/bobafeet.jpg"></div>
+            <div> <img class="slider-item" src="images/mando.jpg"></div>
+            <div> <img class="slider-item" src="images/pilotluke.jpg"></div>
+            <div> <img class="slider-item" src="images/starkiller.jpg"></div>
+            <div> <img class="slider-item" src="images/storm.webp"></div>
+            <div> <img class="slider-item" src="images/tiepilot.jpg"></div>
+            <div> <img class="slider-item" src="images/kylo.jpg"></div>
 
         </div>
     </div>
@@ -56,36 +70,40 @@
 
 
     <!-- Contacto-->
-    <div class="section">
+    <div class="section contacto">
+        <h4>Contactanos!</h4>
         <div>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1883703.9200829007!2d144.9938768080462!3d-42.1397917742286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sHelmet!5e0!3m2!1ses!2sar!4v1653331212556!5m2!1ses!2sar"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                class="map"  allowfullscreen="1" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </div>
         <div>
+   
             <ul>
-                <li>Mail: ventasHelmet@gmail.com</li>
-                <li>Telefono: +54 11 5555 6666</li>
-                <li>Redes:</li>
-                <div class="social">
+                <li>ventashelmet@gmail.com</li>
+                <li>+54 11 5555 6666</li>
+                
+                <div >
                     <a href=""><i class="fa fa-facebook"></i></a>
                     <a href=""><i class="fa fa-instagram"></i></a>
                     <a href=""><i class="fa fa-amazon"></i></a>
                     <a href=""><i class="fa fa-whatsapp"></i></a>
                 </div>
-            </ul>
+                        </ul>
         </div>
     </div>
-    <footer>
 
-        <div class="footer">
+    <footer class="footer">
 
-            <p>Síguenos en: </p> <a href=""><i class="fa fa-facebook"></i></a> <a href=""><i
-                    class="fa fa-instagram"></i></a>
+        <div class="section">
 
+            <div class="insection">
+            <p>Síguenos en: </p> <p><a href=""><i class="fa fa-facebook"></i></a> <a href=""><i
+                    class="fa fa-instagram"></i> </p></a>
 
+                </div>
             <p>Desarrollado por <a href="https://github.com/cmarosa2891">Cmarosa2891 <i class="fa fa-github"></i></a>
             </p>
 
