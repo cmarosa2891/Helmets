@@ -1,13 +1,21 @@
+@font-face {
+    font-family: 'NorthZone';
+    src: local('fonts/ZenDots') format('otf'),
+    font-style: normal;
+    font-weight: 400;
+  }
+
 * {
     margin: 0px;
 }
 
 html {
     background-color: cadetblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: NorthZone, Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     color: white;
 }
+
 
 body {
     display: flex;
