@@ -250,12 +250,15 @@ hr {
         padding-left: 1px;
     }
     .helmets {
-        display: none;
+        height: 20px;
+        margin-right: 10px;
+        margin-left: 20px;
     }
 
     nav {
         display: flex;
-        justify-content: ;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
     }
 
     .navbutton {
